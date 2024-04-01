@@ -1,0 +1,521 @@
+[
+  {
+    "description": "    Feature Description: To run demo tests with playwright library",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-demo-tests;verify-product-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Product home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1048463999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41995699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click categories link",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90951300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see 'Phones', 'Laptops' and 'Monitors' under categories",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75530599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77896400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwright-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1255789099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27246700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I choose 'Phones'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121434100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I see 'Samsung galaxy s6' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125369499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 107230300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwright-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1019422099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32599099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I choose 'Laptops'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76125100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I see 'Sony vaio i5' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123615899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 305597999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwright-demo-tests;verify-relevant-products-are-displayed",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify relevant products are displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 903977400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97467099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I choose 'Monitors'",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81346099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I see 'Apple monitor 24' in display",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379719199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126550800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-demo-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright Demo Tests",
+    "tags": [],
+    "uri": "features\\demo_blaze.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-validate-the-get-in-touch;to-verify-if-get-in-touch-details-displayed",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "To verify if Get In Touch details displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 872750999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84309699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User scroll to Get In touch section",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58247900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "'Address' and correct value displayed",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13478000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92089899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-validate-the-get-in-touch;to-verify-if-get-in-touch-details-displayed",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "To verify if Get In Touch details displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 942858699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31297199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User scroll to Get In touch section",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85980999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "'Phone' and correct value displayed",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13282699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83427700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-validate-the-get-in-touch;to-verify-if-get-in-touch-details-displayed",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "To verify if Get In Touch details displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 912750199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on 'Product Store' page",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31382099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User scroll to Get In touch section",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117676799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "'Email' and correct value displayed",
+            "match": {
+              "location": "steps\\demo_blaze.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36421699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120559500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-validate-the-get-in-touch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To validate the Get In Touch",
+    "tags": [],
+    "uri": "features\\demo_getInTouch.feature"
+  }
+]
