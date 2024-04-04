@@ -1,0 +1,20 @@
+{
+  "name": "playwrightbddpractice",
+  "version": "1.0.0",
+  "description": "Workspace to implement BDD using playwright",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx cucumber-js -p test_runner --tags @demo & node ./htmlReportGenerator.js"
+  },
+  "author": "Srinivasu Kaki",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.42.1",
+    "@types/cucumber-html-reporter": "^5.0.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "playwright": "^1.42.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
